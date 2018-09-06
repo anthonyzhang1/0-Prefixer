@@ -1,5 +1,5 @@
 #! python3
-# rename.py - Adds "0" to the beginning of the filename of all
+# FG #8 '0 Prefixer'.py - Adds "0" to the beginning of the filename of all
 # .txt files in the current working directory.
 
 import os
