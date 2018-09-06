@@ -12,8 +12,7 @@ for file in cwd:
     if not file.endswith('.txt'):
         continue
 
-    origname = file
-    newname = '0' + origname
+    newname = '0' + file
 
     # Commented for safety. Uncomment to use.
-    # os.rename(origname, newname)
+    # os.rename(file, newname)
